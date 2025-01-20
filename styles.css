@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+    
+
+}
+
+.timetable-container {
+    width: 80%;
+    max-width: 1200px;
+    overflow-x: auto;
+    grid-row: auto;
+    grid-column: auto;
+}
+
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.day, .time-slot {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.time-slot {
+    width:
