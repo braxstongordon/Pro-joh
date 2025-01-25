@@ -6,16 +6,18 @@ body {
     height: 100vh;
     margin: 0;
     background-color: antiquewhite;
-    
-
+    flex-direction: column; 
 }
-
+h1 {
+    text-align: center
+    margin-bottom: 20px;
+}
 .timetable-container {
-    width: 80%;
-    max-width: 1200px;
-    overflow-x: auto;
-    grid-row: auto;
-    grid-column: auto;
+    border: 1px solid #ccc;
+    background-colour: #fff;
+    paddiding: 20px
+    border-radius: 8px
+    box
 }
 
 .timetable {
